@@ -1,0 +1,17 @@
+
+header{
+    text-align: center;
+    color: white;
+}
+.about-section{
+    margin: 20px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-size: cover;
+    height:100%;
+}
+.script{
+    color: white;
+}

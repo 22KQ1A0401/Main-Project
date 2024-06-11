@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>order conformation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url('order conformation.jpg');
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    div{
+      color: white;
+      width: 400px;
+    }
+    
+  </style>
+</head>
+<body>
+<form action="file:///C:/Users/eswarao/Desktop/website/thank%20u.html">
+<div class="glass-container">
+  <h2>Order Conformation</h2>
+  <form id="order conformation">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email.." required>
+    </div>
+    <label for="phone number">Phone no.</label>
+      <input type="phone number" class="form-control" id="number" placeholder="Enter phone number.." required>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="address" class="form-control" id="address" placeholder="Enter address.." required>
+    </div>
+    <div class="form-group">
+        <label for="cake">Type of cake</label>
+        <select class="form-control" id=" choice" required>
+          <option value="">Select one</option>
+          <option value="cake">Birthday cake</option>
+          <option value="cake">Wedding cake</option>
+          <option value="cake">Party cake</option> 
+          <option value="cake">Other cake</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="choice">Orders required</label>
+        <select class="form-control" id=" choice" required>
+          <option value="">Select one</option>
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option> 
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="gender">Your Choice</label>
+        <select class="form-control" id=" choice" required>
+          <option value="">Select one</option>
+          <option value="online">Online payment</option>
+          <option value="offline">Offline payment</option>
+         
+        </select>
+        </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+</div>
+
+<script>
+  document.getElementById('registerForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+    // Here you can add your login logic using JavaScript
+    // For simplicity, I'll just log the username and password
+    console.log('Username:', username);
+    console.log('Password:', password);
+  });
+  </script>
+</form>
+</body>
+</html>
